@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+}
+.apointment-cont {
+  background-color: #ffffff;
+  width: 90vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.main-heading {
+  font-size: 25px;
+}
+.top-card {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  display: flex;
+  flex-direction: row;
+}
+.name-date {
+  display: flex;
+  flex-direction: column;
+}
+.nameInp {
+  font-size: 10px;
+}
+.name-input {
+  width: 150px;
+  margin-bottom: 10px;
+}
+.dateInp {
+  font-size: 10px;
+}
+.date-input {
+  width: 200px;
+  margin-bottom: 10px;
+}
+.imageEl {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  display: block;
+  width: 40vw;
+}
+.btn {
+  width: 60px;
+  background-color: #8b5cf6;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: #ffffff;
+  height: 20px;
+  border-color: transparent;
+}
+
+.h-line {
+  color: #b5b7c4;
+}
+.appoint-star {
+  display: flex;
+  justify-content: space-between;
+}
+.strbtn {
+  width: 150px;
+  border: 1px solid #9897f0;
+  border-radius: 10px;
+}
+.star-back {
+  background-color: #9897f0;
+  width: 150px;
+
+  border-radius: 10px;
+}
+.listel {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  border: 1px solid #b5b7c4;
+}
+
+@media screen and (min-width: 768px) {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
